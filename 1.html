@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Import Semantic-UI -->
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+
+  <!-- Import JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="ui secondary pointing menu" style="padding:5px;">
+    <div href="index.html" class="item" style="padding-left:25em;">
+      <img src="./assets/uniVenturesLogoC42.png" alt="">
+    </div>
+    <div class="right menu" style="padding-right:25em;">
+      <div class="item">
+        <button class="ui teal button ">
+          Log In
+        </button>
+      </div>
+      <div class="item">
+        <button class="ui blue button">
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Contents -->
+  <div class="pusher body-div">
+    <h1 style="text-align:center;letter-spacing:3px;">PROJECTS</h1>
+    <div style="display:flex;">
+      <div class="ui segment body1" style="margin:30px;">
+        <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="Search projects">
+          <i class="search icon"></i>
+        </div>
+        <div class="ui form" style="padding:10px;">
+          <!--  -->
+          <p><b>Project Type</b></p>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>All</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Individual Project</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Group Project</label>
+          </div>
+          <br/>
+          <!--  -->
+          <p><b>Time Commitment</b></p>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Short-term</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Long-term</label>
+          </div>
+          <br/>
+          <!--  -->
+          <p><b>Work Type</b></p>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Programming</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Research</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Design</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Business</label>
+          </div>
+          <br/>
+          <!--  -->
+          <p><b>Industry Type</b></p>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Education</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Health/Life Sciences</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Environment</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Social/Community Engagement</label>
+          </div>
+          <br/>
+          <div class="ui checkbox check-margin">
+            <input type="checkbox">
+            <label>Art and Design</label>
+          </div>
+          <br/>
+        </div>
+      </div>
+
+      <div class="ui segment body2" style="margin:30px;">
+        <div class="ui stacked segments">
+          <!-- one -->
+          <div class="ui segment yellow" style="display:flex;flex-direction:column;padding:20px;">
+            <div style="width:100%">
+              <img class="ui avatar image" src="./assets/woman.png" style="width:45px;height:45px;" alt="">
+              <span style="margin:auto 0;margin-left:10px;font-size:20px;"><b>Jenny Jones</b></span>
+              <span style="margin-left:121px"><em>Education / Programming</em></span>
+            </div>
+            <div style="margin-top:10px">
+              <span style="margin-top:7px">"I need help with web development"</span>
+              <i style="margin-left:110px" class="clock outline icon"></i>
+              <span><em>Short-term</em></span>
+            </div>
+          </div>
+
+          <!-- two -->
+          <div class="ui segment yellow" style="display:flex;flex-direction:column;padding:20px;">
+            <div style="width:100%">
+              <img class="ui avatar image" src="./assets/Young-Male-Intern.jpg" style="width:45px;height:45px;object-fit:cover" alt="">
+              <span style="margin:auto 0;margin-left:10px;font-size:20px;"><b>Brian Bretzel</b></span>
+              <span style="margin-left:153px"><em>Environment / Research</em></span>
+            </div>
+            <div style="margin-top:10px">
+              <span style="margin-top:7px">"I need help with "</span>
+              <i style="margin-left:153px" class="clock outline icon"></i>
+              <span><em>Short-term</em></span>
+            </div>
+          </div>
+          
+          <!-- three -->
+          <div class="ui segment yellow" style="display:flex;flex-direction:column;padding:20px;">
+            <div style="width:100%">
+              <img class="ui avatar image" src="./assets/lineleap.png" style="width:45px;height:45px;" alt="">
+              <span style="margin:auto 0;margin-left:10px;font-size:20px;"><b>Line Leap</b></span>
+              <span style="margin-left:165px"><em>Social / Programming</em></span>
+            </div>
+            <div style="margin-top:10px">
+              <span style="margin-top:7px">"We need help with mobile app development"</span>
+              <i style="margin-left:90px" class="clock outline icon"></i>
+              <span><em>Long-term</em></span>
+            </div>
+          </div>
+          
+          <!-- four -->
+          <div class="ui segment yellow" style="display:flex;flex-direction:column;padding:20px;">
+            <div style="width:100%">
+              <img class="ui avatar image" src="./assets/adrian.jpeg" style="width:45px;height:45px;" alt="">
+              <span style="margin:auto 0;margin-left:10px;font-size:20px;"><b>Adrian Aliko</b></span>
+              <span style="margin-left:162px"><em>Education / Programming</em></span>
+            </div>
+            <div style="margin-top:10px">
+              <span style="margin-top:7px">"I need help with web development"</span>
+              <i style="margin-left:153px" class="clock outline icon"></i>
+              <span><em>Long-term</em></span>
+            </div>
+          </div>
+
+          <!-- five -->
+          <div class="ui segment yellow" style="display:flex;flex-direction:column;padding:20px;">
+            <div style="width:100%">
+              <img class="ui avatar image" src="./assets/foodfinder.png" style="width:45px;height:45px;" alt="">
+              <span style="margin:auto 0;margin-left:10px;font-size:20px;"><b>FoodFinder</b></span>
+              <span style="margin-left:166px"><em>Education / Programming</em></span>
+            </div>
+            <div style="margin-top:10px">
+              <span style="margin-top:7px">"I need help with web development"</span>
+              <i style="margin-left:153px" class="clock outline icon"></i>
+              <span><em>Short-term</em></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="ui inverted vertical footer segment">
+    <div class="ui container" style="padding:7px;width:55%;">
+      <div class="ui stackable inverted equal height stackable grid">
+        <div class="five wide column">
+          <h4 class="ui inverted header">About</h4>
+          <div class="ui inverted link list">
+            <a class="item">About UNIVENTURES</a>
+            <a class="item">Contact Us</a>
+          </div>
+        </div>
+        <div class="eight wide column">
+          <h4 class="ui inverted header">UNIVENTURES</h4>
+          <p>Join now and connect with students across campus!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
